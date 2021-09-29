@@ -35,9 +35,9 @@ public class HelloSum {
 
         /*
         switch (robot) {
-            case Vacuum v    -> v.bleep();
-            case LawnMower l -> l.bleep();
-            case SnowBlower s -> s.bleep();
+            case Vacuum v    -> v.suck();
+            case SnowBlower s -> s.blow();
+            case LawnMower l -> l.cut();
         }
          */
     }
