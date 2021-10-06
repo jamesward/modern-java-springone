@@ -8,20 +8,20 @@ public class HelloSum {
             System.out.println("shhhhhhh");
         }
     }
+
     static final class SnowBlower implements Robot {
         public void blow() {
             System.out.println("chggggg");
         }
     }
+
     static final class LawnMower implements Robot {
         public void cut() {
             System.out.println("bzzzzzz");
         }
     }
 
-    public static void main(String[] args) {
-
-        Robot robot = new Vacuum();
+    static void robotStuff(Robot robot) {
 
         // old way
         if (robot instanceof Vacuum) {
@@ -40,5 +40,9 @@ public class HelloSum {
             case LawnMower l -> l.cut();
         }
          */
+    }
+
+    public static void main(String[] args) {
+        robotStuff(new Vacuum());
     }
 }

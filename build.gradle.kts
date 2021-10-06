@@ -6,6 +6,15 @@ application {
     mainClass.set("HelloRecords")
 }
 
+// this will work in Gradle 7.3
+/*
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(17))
+    }
+}
+ */
+
 /*
 tasks.withType<JavaCompile> {
     options.compilerArgs.add("--enable-preview")
