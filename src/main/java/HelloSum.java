@@ -33,13 +33,11 @@ public class HelloSum {
             v.suck();
         }
 
-        /*
         switch (robot) {
-            case Vacuum v    -> v.suck();
+            case Vacuum v     -> v.suck();
             case SnowBlower s -> s.blow();
-            case LawnMower l -> l.cut();
+            case LawnMower l  -> l.cut();
         }
-         */
     }
 
     public static void main(String[] args) {
